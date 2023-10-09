@@ -22,7 +22,7 @@ const submit = () => {
 const onChange = (event) => {
   setValue(event.target.value);
 };
-
+// função que verifica o event de tecla, enter  e esc.
 const onKeyDown = (event) => {
   if (event.which === ENTER_KEY) {
     submit();
@@ -30,7 +30,7 @@ const onKeyDown = (event) => {
     erase();
   }
 };
-
+//Recebendo as funções no input 
   return (
     <input
     className="new-todo"

@@ -6,8 +6,6 @@ import NewTodo from './components/Newtodo';
 import TodoList from './components/Newtodo/Todolist'
 
 
-
-
 const App = () => {
   const [todos, setTodos] = useState([]);
 
@@ -39,7 +37,7 @@ const App = () => {
   return (
     <section id="app" className="container">
       <header>
-        <h1 className="title">todo list <h1></h1></h1>
+        <h1 className="title"> Todo list 💟<h1></h1></h1>
       </header>
       <section className="main">
         <NewTodo onNewTodo={onNewTodo} />
